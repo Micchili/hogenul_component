@@ -11,7 +11,7 @@ function waitInstall(){
 
 function install() {
         for (let index = 0; index < 10; index++) {
-            pacman.innerHTML(i);
+            pacman.innerHTML = i;
             i.push('#');
         }
 }
