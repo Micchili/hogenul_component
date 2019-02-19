@@ -1,11 +1,11 @@
 
-let b = document.getElementById("b");
+let push = document.getElementById("b");
 let pacman = document.getElementById("pacman");
 let i = ['#'];
 
-b.addEventListener('click' ,a(), true);
+b.addEventListener('click' ,waitInstall(), true);
 
-function a(){
+function waitInstall(){
     setInterval(install(),500);
 }
 
